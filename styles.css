@@ -29,14 +29,14 @@ html, body {
   width: 100%;
   height: 100%;
   transition: transform 0.3s ease-out;
-  will-change: transform; // prevents paint flashing
+  will-change: transform; 
 }
 
 .item-parallax-media {
   z-index: 1;
   
   img {
-    will-change: transform; // prevents paint flashing
+    will-change: transform;
   }
 }
 .item-parallax-content {
@@ -55,7 +55,6 @@ $boxes: 5;
 }
 
 
-// --------------- layout
 
 $dark: #00171f;
 $light: white;
@@ -154,7 +153,7 @@ html {
   }
 }
 
-// ------------ landing
+
 .section-landing:before {
   content: '';
   position: absolute;
@@ -175,7 +174,7 @@ html {
   padding-left: 30%;
 }
 
-// ---------------- intro
+
 .section-intro:before {
   content: '';
   position: absolute;
@@ -193,7 +192,7 @@ html {
 }
 
 
-// ------------------ image grid
+
 .img-grid {
   flex-direction: column;
   justify-content: space-around;
@@ -253,7 +252,6 @@ html {
 }
 
 
-// ---------------- end
 .section-end:before {
   content: '';
   position: absolute;
@@ -267,7 +265,6 @@ html {
 }
 
 
-// -------------- kind of a footer
 .custom-properties-ftw {
   padding: 2.5rem 1.5rem;
   
