@@ -1,4 +1,4 @@
-# Organica
+# organica
 
 ### 🔗🔗  [Organic Retail Website](https://kaustav202.github.io/organica/)   🍁🍂
 <br/>
