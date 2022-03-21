@@ -1,4 +1,4 @@
-# services_LandingSite
+# Organica
 
 ### 🔗🔗  [Organic Retail Website](https://kaustav202.github.io/services_LandingSite/)   🍁🍂
 <br/>
