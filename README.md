@@ -1,3 +1,21 @@
+![hacktoberfest-dark-banner](https://user-images.githubusercontent.com/89788120/193028856-7c902c68-50dd-4a94-8154-b32c5a037ba2.png)
+
+### This project is now open to contributions under hacktoberfest 2022 and your contributions are welcome.
+
+#### To get started with contributing and the flow check out 👉 **[below](https://github.com/kaustav202/RealTime-TwitterDataAnalysis#how-to-get-started-with-contributions)**. This repo follows all the standard measures and compliances to ensure a healthy environment for collaboration and community engagement. 
+
+How you can contribute ?
+
+- [x] Check out the existing issues and help solve those.
+- [x] Suggest better alternatives to current choices in design and UI.
+- [x] Suggest new ways to improve functionality and actual application.
+- [x] Help with low-code and no-code like documentaion, the set-up and configuration, walkthrough.
+- [x] Add new awesome features of your own without breaking existing ones.
+
+Finally, let's relish the spirit of open source and have fun while bringing quality changes. Happy Contributing 🎉🎉 !!
+
+---
+
 # organica
 
 ### 🔗🔗  [Organic Retail Website](https://kaustav202.github.io/organica/)   🍁🍂
@@ -11,6 +29,8 @@ The site is deployed on github pages.
  <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> &nbsp;<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>&nbsp; <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
  
 </br>
+
+
 
 ## How to get started with contributions
 
