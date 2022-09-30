@@ -258,10 +258,54 @@ html {
 .custom-properties-ftw .head-small {
   margin-bottom: 0;
 }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+  
+  margin:10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  padding: 10px;
+  width: 98.75%;
+  background-color: hsla(194, 53%, 11%,0.8);
+}
+@media (max-width:942px){
+  nav ul{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 100%;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+}
 </style>
-  
+<nav>
+  <ul >
+    <li><h2 class="head-small"><a href="#">HOME</a></h2></li>
+    <li><h2 class="head-small"><a href="#">PRODUCTS</a></h2></li>
+    <li><h2 class="head-small"><a href="#">LIFESTYLE</a></h2></li>
+    <li><h2 class="head-small"><a href="#">ABOUT</a></h2></li>
+    <li><h2 class="head-small"><a href="#">CONTACT US</a></h2></li>
+  </ul>
+</nav>
 <main class="content js-content">
-  
   <section class="block section-landing">
     <figure class="item-parallax-media">
       <img src="https://i.postimg.cc/DwP6Ky8V/Untitled-design-13.png" alt="" />
