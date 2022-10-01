@@ -20,8 +20,7 @@ Finally, let's relish the spirit of open source and have fun while bringing qual
 
 ### 🔗🔗  [Organic Retail Website](https://kaustav202.github.io/organica/)   🍁🍂
 <br/>
-A platform that attempts to bring forth the importance of adopting a more organic lifestyle and also provide means of making it possible by establishing direct channels between the consumers and producers of organic products. Cool Parallax effects and clean UI has been used to make the landing page of the site.
-The site is deployed on github pages.
+A website that attempts to bring forth the importance of adopting a more organic lifestyle and also provide means of making it possible by establishing direct channels between the consumers and producers of organic products. This project aims to evolve into a platform that can be very useful for the community at large, while being completely non-proprietary and maintained by passionate individuals. Cool Parallax effects and clean UI has been used to make the landing page of the site. The site is deployed on github pages.
 
 
 ### Tech Stack Used 
