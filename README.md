@@ -6,7 +6,7 @@
 
 How you can contribute ?
 
-- [x] Check out the existing issues and help solve those.
+- [x] Check out the existing issues and help solve those or create new ones if needed.
 - [x] Suggest better alternatives to current choices in design and UI.
 - [x] Suggest new ways to improve functionality and actual application.
 - [x] Help with low-code and no-code like documentaion, the set-up and configuration, walkthrough.
