@@ -258,6 +258,49 @@ html {
 .custom-properties-ftw .head-small {
   margin-bottom: 0;
 }
+.footer{
+  background-color: #0d232a;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 30px;
+}
+.footer-content .copy {
+  margin-bottom: -2px;
+}
+.aim-content{
+  margin: 0px 200px 0px 0px;
+  color:aliceblue;
+  text-align: justify;
+}
+.quick-links{
+  margin: 10px 30px;
+  color:aliceblue
+}
+.quick-links-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.quick-links-content li{
+  list-style: none;
+  padding: 10px;
+}
+.quick-links-content li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer hr
+{
+  border: 0.5px solid rgb(108, 107, 107);
+  opacity:0.5
+}
+
 </style>
   
 <main class="content js-content">
@@ -338,6 +381,29 @@ html {
   <section class="custom-properties-ftw">
     <h3 class="head-small head-centered">Custom Properties</h3>
   </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="aim">
+        <h3 class="head-small"> Our Aim</h3>
+        <p class="aim-content">Our aim is to bring forth the importance of adopting a more organic lifestyle and also provide means of making it possible by establishing direct channels between the consumers and producers of organic products.</p>
+      </div>
+      <div class="quick-links">
+        <h3 class="head-small">Quick Links</h3>
+        <ul class="quick-links-content">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="https://github.com/kaustav202/organica">Github</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copy copy-White">
+      &copy; 2022 Organica | All copyrights reserved.
+    </p>
+  </footer>
 </main>
 <script id="jsbin-javascript">
 
