@@ -68,6 +68,19 @@ html, body {
 .block:nth-child(5) .item-parallax-media img {
   transform: translateY(calc(var(--yBlock-5) * 0.1px));
 }
+.block:nth-child(6) .item-parallax-content {
+  transform: translateY(calc(var(--yBlock-6) * 0.5px));
+}
+.block:nth-child(6) .item-parallax-media img {
+  transform: translateY(calc(var(--yBlock-6) * 0.1px));
+}
+.block:nth-child(7) .item-parallax-content {
+  transform: translateY(calc(var(--yBlock-7) * 0.5px));
+}
+.block:nth-child(7) .item-parallax-media img {
+  transform: translateY(calc(var(--yBlock-7) * 0.1px));
+}
+
 html {
   background-color: #00171f;
 }
@@ -224,6 +237,14 @@ html {
 .img-gridItem:nth-child(2) img {
   transform: translateX(calc(var(--yBlock-4) * 0.03%));
 }
+.img-gridItem:nth-child(3) img {
+  transform: translateX(calc(var(--yBlock-6) * -0.03%));
+}
+.img-gridItem:nth-child(4) img {
+  transform: translateX(calc(var(--yBlock-6) * 0.03%));
+}
+
+
 .img-caption {
   position: absolute;
   top: 50%;
@@ -321,6 +342,43 @@ html {
           </p>
         </figcaption>
       </figure>
+    </div>
+  </section>
+
+  <section class="block section-part">
+    <figure class="item-parallax-media">
+      <img src="https://www.agrivi.com/wp-content/uploads/2021/05/The-Most-Important-Facts-About-Organic-Farming-1200x565.jpeg" alt="" />
+    </figure>
+    <div class="item-parallax-content flex-container">
+      <div class="centered-content">
+        <h1 class="head-large head-centered">Consume <br/>Healthier</h1>
+        <p class="copy copy-white">
+          Eating these products can lower your risk to residues of certain pesticides. It can also reduce your risk of infections caused by bacteria resistant to antibiotics. Evidence suggests that eating organic foods will start reducing the cadmium exposure by 48%. Residues of pesticides are four times more likely to be present on traditional crops than organic ones.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="block">
+    <div class="item-parallax-content flex-container img-grid">
+      <figure class="img-gridItem type-right">
+        <img src="https://s3.us-east-2.amazonaws.com/red-fox-organics-2018/hands-holding-organic-vegetables.jpg" alt="" />
+        <figcaption class="img-caption">
+          <h2 class="head-small">No pesticides</h2>
+          <p class="copy copy-white">
+            Pesticides are less prevalent in organic food items. In conventional agriculture, chemicals such as synthetic fungicides, herbicides, and insecticides are frequently utilized, and residues linger on (and in) the food we consume. Organic food lacks preservatives that extend its shelf life.
+          </p>
+        </figcaption>
+      </figure>
+      <figure class="img-gridItem type-left">
+        <img src="https://content.ca.healthwise.net/resources/13.1/en-ca/media/medical/hw/bld114554_pi.jpg" alt="" />
+        <figcaption class="img-caption">
+          <h2 class="head-small">Higher Nutrition</h2>
+          <p class="copy copy-white">
+            Organic products such as Organic Amla Juice, Organic Chyawanprash, and others should be added to your shopping basket if you wish to reap the benefits of eating healthy. Organic products have a higher concentration of vitamins and minerals.
+          </p>
+        </figcaption>
+      </figure>
+      
     </div>
   </section>
   
