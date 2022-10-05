@@ -10,6 +10,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  scroll-behavior: smooth !important;
 }
 .content {
   height: 100%;
@@ -258,10 +259,29 @@ html {
 .custom-properties-ftw .head-small {
   margin-bottom: 0;
 }
+
+#button-scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #75A16B;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 22px;
+}
+
+#button-scroll:hover {
+  background-color: #555;
+}
+
 </style>
   
 <main class="content js-content">
-  
   <section class="block section-landing">
     <figure class="item-parallax-media">
       <img src="https://i.postimg.cc/DwP6Ky8V/Untitled-design-13.png" alt="" />
@@ -339,10 +359,29 @@ html {
     <h3 class="head-small head-centered">Custom Properties</h3>
   </section>
 </main>
+<button onclick="topFunction()" id="button-scroll" title="Go to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/> </svg>
+</button>
+
+<script>
+  let mybutton = document.getElementById("button-scroll");
+  const docu = document.body;
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (docu.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+    function topFunction() {
+    console.log('eweqw')
+    docu.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 <script id="jsbin-javascript">
-
-
-
 const body = document.body;
 const content = document.querySelector('.js-content');
 const blocks = document.querySelectorAll('.block');
