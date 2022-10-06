@@ -4,7 +4,7 @@
 
 #### To get started with contributing and the flow, check out 👉 **[below](https://github.com/kaustav202/RealTime-TwitterDataAnalysis#how-to-get-started-with-contributions)**. This repo follows all the standard measures and compliances to ensure a healthy environment for collaboration and community engagement. 
 
-How can you contribute?
+How you can contribute..
 
 - [x] Check out the existing issues and help solve those or create new ones if needed.
 - [x] Suggest better alternatives to current choices in design and UI.
