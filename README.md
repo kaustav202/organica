@@ -1,15 +1,15 @@
 ![hacktoberfest-dark-banner](https://user-images.githubusercontent.com/89788120/193028856-7c902c68-50dd-4a94-8154-b32c5a037ba2.png)
 
-### This project is now open to contributions under hacktoberfest 2022 and your contributions are welcome.
+### This project is now open to contributions under hacktoberfest 2022, and your contributions are welcome.
 
-#### To get started with contributing and the flow check out 👉 **[below](https://github.com/kaustav202/RealTime-TwitterDataAnalysis#how-to-get-started-with-contributions)**. This repo follows all the standard measures and compliances to ensure a healthy environment for collaboration and community engagement. 
+#### To get started with contributing and the flow, check out 👉 **[below](https://github.com/kaustav202/RealTime-TwitterDataAnalysis#how-to-get-started-with-contributions)**. This repo follows all the standard measures and compliances to ensure a healthy environment for collaboration and community engagement. 
 
-How you can contribute ?
+How you can contribute..
 
 - [x] Check out the existing issues and help solve those or create new ones if needed.
 - [x] Suggest better alternatives to current choices in design and UI.
 - [x] Suggest new ways to improve functionality and actual application.
-- [x] Help with low-code and no-code like documentaion, the set-up and configuration, walkthrough.
+- [x] Help with low-code and no-code like documentation, the set-up and configuration, and walkthrough.
 - [x] Add new awesome features of your own without breaking existing ones.
 
 Finally, let's relish the spirit of open source and have fun while bringing quality changes. Happy Contributing 🎉🎉 !!
@@ -20,7 +20,7 @@ Finally, let's relish the spirit of open source and have fun while bringing qual
 
 ### 🔗🔗  [Organica Website](https://kaustav202.github.io/organica/)   🍁🍂
 <br/>
-A website that attempts to bring forth the importance of adopting a more organic lifestyle and also provide means of making it possible by establishing direct channels between the consumers and producers of organic products. This project aims to evolve into a platform that can be very useful for the community at large, while being completely non-proprietary and maintained by passionate individuals. Cool Parallax effects and clean UI has been used to make the landing page of the site. The site is deployed on github pages.
+A website that attempts to bring forth the importance of adopting a more organic lifestyle and also provides means of making it possible by establishing direct channels between the consumers and producers of organic products. This project aims to evolve into a platform that can be very useful for the community while being completely non-proprietary and maintained by passionate individuals. Cool Parallax effects and clean UI have been used to make the site's landing page. The site is deployed on GitHub pages.
 
 
 ### Tech Stack Used 
@@ -42,18 +42,18 @@ A website that attempts to bring forth the importance of adopting a more organic
 - Check existing issues or raise a new issue of your own and ask it to be assigned to you.
 - Wait for the issue to be assigned to you.
 - Create a branch: `git checkout -b <your-new-branch-name>`
-- Put your code :-
+- Put your code:-
 
   - Make all necessary changes or modifications to the code in your local cloned branch.
-  - Neccessary information like functionalities, screenshots, working video(if required) should be kept handy (you will need to present it when submitting the PR)
+  - Necessary information like functionalities, screenshots, and working video(if required) should be kept handy (you will need to present it when submitting the PR)
 
-- Push changes to gitHub ( on your forked repo ) : `git push origin <add-your-branch-name>`
-- Create a new pull request to the original repo ( main branch of this repo )
+- Push changes to GitHub ( on your forked repo ) : `git push origin <add-your-branch-name>`
+- Create a new pull request to the original repo (the main branch of this repo )
 - Submit your changes for review.
 - And Boom! You're done 🥳
 - The maintainers will review and merge your changes into the main branch of this project. You will be automatically notified via E-mail once the changes have been merged.
 
-#### Note : If you want your changes to count towards hacktoberfest ensure that the issue you are working on has #hacktoberfest label
+#### Note: If you want your changes to count towards hacktoberfest, ensure that the issue you are working on has the #hacktoberfest label
 
 ---
 
