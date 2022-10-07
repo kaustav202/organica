@@ -9,6 +9,17 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-track{
+   background-color: #00171f;
+}
+::-webkit-scrollbar-thumb{
+  background-color: white;
+}
+
 .content {
   height: 100%;
   overflow-x: hidden;
@@ -219,3 +230,4 @@ html {
 .custom-properties-ftw .head-small {
   margin-bottom: 0;
 }
+
