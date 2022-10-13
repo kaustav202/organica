@@ -1,14 +1,18 @@
-
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
+
+html,
+body {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
+
 .content {
   height: 100%;
   overflow-x: hidden;
@@ -16,10 +20,12 @@ html, body {
   clip-path: border-box;
   transform: translateZ(0);
 }
+
 .block {
   position: relative;
   height: 100vh;
 }
+
 [class*='item-parallax'] {
   position: absolute;
   width: 100%;
@@ -27,61 +33,119 @@ html, body {
   transition: transform 0.3s ease-out;
   will-change: transform;
 }
+
 .item-parallax-media {
   z-index: 1;
 }
+
 .item-parallax-media img {
   will-change: transform;
 }
+
 .item-parallax-content {
   z-index: 2;
 }
+
 .block:nth-child(1) .item-parallax-content {
   transform: translateY(calc(var(--yBlock-1) * 0.5px));
 }
+
 .block:nth-child(1) .item-parallax-media img {
   transform: translateY(calc(var(--yBlock-1) * 0.1px));
 }
+
 .block:nth-child(2) .item-parallax-content {
   transform: translateY(calc(var(--yBlock-2) * 0.5px));
 }
+
 .block:nth-child(2) .item-parallax-media img {
   transform: translateY(calc(var(--yBlock-2) * 0.1px));
 }
+
 .block:nth-child(3) .item-parallax-content {
   transform: translateY(calc(var(--yBlock-3) * 0.5px));
 }
+
 .block:nth-child(3) .item-parallax-media img {
   transform: translateY(calc(var(--yBlock-3) * 0.1px));
 }
+
 .block:nth-child(4) .item-parallax-content {
   transform: translateY(calc(var(--yBlock-4) * 0.5px));
 }
+
 .block:nth-child(4) .item-parallax-media img {
   transform: translateY(calc(var(--yBlock-4) * 0.1px));
 }
+
 .block:nth-child(5) .item-parallax-content {
   transform: translateY(calc(var(--yBlock-5) * 0.5px));
 }
+
 .block:nth-child(5) .item-parallax-media img {
   transform: translateY(calc(var(--yBlock-5) * 0.1px));
 }
+
 html {
   background-color: #00171f;
 }
+
 .flex-container {
   display: flex;
 }
+
 .centered-content {
   margin: auto;
 }
+
 .head-large {
   margin-bottom: 5vw;
   font-size: 10vw;
   line-height: 1.2em;
   font-family: 'Inknut Antiqua', serif;
-  color: white;
+  color: wheat;
+  opacity: 0.9;
 }
+
+@media screen and (max-width: 800px) {
+
+  .head-large {
+    font-size: 5rem;
+  }
+
+  .section-landing:before,
+  .section-end:before {
+    opacity: 0;
+  }
+
+}
+
+@media screen and (max-width:440px) {
+  .head-large {
+    font-size: 4rem;
+  }
+
+  .img-caption h2 {
+    font-size: 80%;
+  }
+
+  .img-caption p {
+    font-size: 15px;
+  }
+
+  .type-left .img-caption {
+    margin-top: 35px;
+  }
+
+  .img-grid:nth-child(2) .img-caption p {
+    font-size: 13px;
+  }
+
+  .type-left .img-caption h2 {
+    margin-bottom: 10px;
+  }
+}
+
 .head-small {
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
@@ -93,9 +157,11 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .head-centered {
   text-align: center;
 }
+
 .copy {
   display: block;
   max-width: 500px;
@@ -109,14 +175,17 @@ html {
   line-height: 1.8em;
   text-align: center;
 }
+
 .copy-white {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .item-parallax-media {
   overflow: hidden;
 }
+
 .item-parallax-media img {
   position: absolute;
   top: -10%;
@@ -125,23 +194,27 @@ html {
   height: 120%;
   object-fit: cover;
 }
+
 .section-landing:before {
   content: '';
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 24%;
   width: 10px;
-  height: 80%;
+  height: 83%;
   background-color: white;
   z-index: 3;
   transform: translateY(-13vw);
 }
+
 .section-landing .item-parallax-media {
   opacity: calc(1 - (var(--y) * 0.0009));
 }
+
 .landing-content {
   padding-left: 30%;
 }
+
 .section-intro:before {
   content: '';
   position: absolute;
@@ -154,10 +227,12 @@ html {
   will-change: transform;
   backface-visibility: visible;
 }
+
 .img-grid {
   flex-direction: column;
   justify-content: space-around;
 }
+
 .img-gridItem {
   position: relative;
   width: 100%;
@@ -165,47 +240,58 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
+
 .img-gridItem img {
   display: block;
-  width: 50%;
-  height: 40vh;
-  object-fit: cover;
+  width: 45%;
+  height: 35vh;
+  object-fit: none;
   will-change: transform;
   backface-visibility: visible;
 }
+
 .img-gridItem.type-left img {
   margin-right: auto;
 }
+
 .img-gridItem.type-right img {
   margin-left: auto;
 }
+
 .img-gridItem:nth-child(1) img {
   transform: translateX(calc(var(--yBlock-4) * -0.03%));
 }
+
 .img-gridItem:nth-child(2) img {
   transform: translateX(calc(var(--yBlock-4) * 0.03%));
 }
+
 .img-caption {
   position: absolute;
   top: 50%;
   width: 50%;
   transform: translateY(-50%);
 }
+
 .img-caption * {
   text-align: left;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+
 .type-left .img-caption {
   right: 0;
 }
+
 .type-right .img-caption {
   left: 0;
 }
+
 .section-end:before {
   content: '';
   position: absolute;
   bottom: 50%;
+  top: -10%;
   left: 24%;
   width: 10px;
   height: 80%;
@@ -213,9 +299,11 @@ html {
   z-index: 3;
   transform: translateY(8vw);
 }
+
 .custom-properties-ftw {
   padding: 2.5rem 1.5rem;
 }
+
 .custom-properties-ftw .head-small {
   margin-bottom: 0;
 }
