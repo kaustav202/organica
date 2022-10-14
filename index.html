@@ -261,13 +261,11 @@ html {
 }
 
 /* Scrollbar */
-
 ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
   background-color: transparent;
-  padding: 0 2px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #0d232a;
@@ -277,7 +275,18 @@ html {
   border: 7px solid #0d232f
 }
 
-
+@supports(scrollbar-track-color: transparent;) {
+  ::-webkit-scrollbar-thumb {
+    background-color: #0d232a;
+    border-radius: 1.5em;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  border: 7px solid #0d232f
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+}
 </style>
   
 <main class="content js-content">
