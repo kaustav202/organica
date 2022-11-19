@@ -1,4 +1,4 @@
-### This project is now open to contributions under hacktoberfest 2022, and your contributions are welcome.
+<!-- ### This project is now open to contributions under hacktoberfest 2022, and your contributions are welcome.
 
 #### To get started with contributing and the flow, check out 👉 **[below](https://github.com/kaustav202/RealTime-TwitterDataAnalysis#how-to-get-started-with-contributions)**. This repo follows all the standard measures and compliances to ensure a healthy environment for collaboration and community engagement. 
 
@@ -11,6 +11,8 @@ How you can contribute..
 - [x] Add new awesome features of your own without breaking existing ones.
 
 Finally, let's relish the spirit of open source and have fun while bringing quality changes. Happy Contributing 🎉🎉 !!
+
+-->
 
 ---
 
