@@ -29,8 +29,6 @@ A website that attempts to bring forth the importance of adopting a more organic
  
 </br>
 
-
-
 ## How to get started with contributions
 
 - Read The [Contributing Guidelines](./Contributions.md) and [Code Of Conduct](./Code_Of_Conduct.md)
