@@ -1,5 +1,3 @@
-![hacktoberfest-dark-banner](https://user-images.githubusercontent.com/89788120/193028856-7c902c68-50dd-4a94-8154-b32c5a037ba2.png)
-
 ### This project is now open to contributions under hacktoberfest 2022, and your contributions are welcome.
 
 #### To get started with contributing and the flow, check out 👉 **[below](https://github.com/kaustav202/RealTime-TwitterDataAnalysis#how-to-get-started-with-contributions)**. This repo follows all the standard measures and compliances to ensure a healthy environment for collaboration and community engagement. 
