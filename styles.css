@@ -82,7 +82,7 @@ html {
   font-size: 10vw;
   line-height: 1.2em;
   font-family: 'Inknut Antiqua', serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .head-small {
   margin-bottom: 1.5rem;
@@ -221,3 +221,5 @@ html {
 .custom-properties-ftw .head-small {
   margin-bottom: 0;
 }
+
+
