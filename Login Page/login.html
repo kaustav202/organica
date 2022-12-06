@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="login-style.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/63b9de9f82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login
+            <br><br><span class="user-profile"><i class="fa-regular fa-2x fa-user"></i></span>
+        </h1>
+        
+        <h2>Welcome to Organica</h2>
+        
+        <form action="">
+            <div class="user-box">
+                <input type="text" name="" required>
+                <label for="">Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="" required="" id="passInput">
+                <label for="">Password</label>
+                <span class="eye" onclick="eyeToggle()">
+                    <i id="see" class="fa-regular fa-eye"></i>
+                    <i id="hide" class="fa-regular fa-eye-slash"></i>
+                </span>
+            </div>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+            </a>
+        </form>
+    </div>
+
+    <script>
+        function eyeToggle(){
+            var x = document.getElementById("passInput");
+            var y = document.getElementById("see");
+            var z = document.getElementById("hide");
+
+            if(x.type === 'password'){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none";
+            }else{
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
