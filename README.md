@@ -66,8 +66,8 @@ A website that attempts to bring forth the importance of adopting a more organic
 
 
 <h2> Project Maintainers ⚡ </h2>
-  <a href="https://github.com/kaustav202"></a>
-  <a href="https://github.com/Unnati-Gupta24"></a>
+  <a href="https://github.com/kaustav202">Kaustav</a>
+  <a href="https://github.com/Unnati-Gupta24">Unnati</a>
 
 ---
 
