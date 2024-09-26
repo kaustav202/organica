@@ -57,7 +57,7 @@ A website that attempts to bring forth the importance of adopting a more organic
 
 ![GitHub release](https://img.shields.io/github/release/kaustav202/organica)</br>
 
-![GitHub pull-requests merged](https://badgen.net/github/merged-prs/kaustav202/organica)&nbsp; &nbsp;![GitHub branches](https://badgen.net/github/branches/kaustav202/organica)&nbsp;&nbsp;![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) &nbsp; &nbsp; ![Maintainer](https://img.shields.io/badge/maintainer-Kaustav-blue)&nbsp; &nbsp;![GitHub license](https://badgen.net/github/license/kaustav202/organica)
+![GitHub pull-requests merged](https://badgen.net/github/merged-prs/kaustav202/organica)&nbsp; &nbsp;![GitHub branches](https://badgen.net/github/branches/kaustav202/organica)&nbsp;&nbsp;![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) &nbsp; &nbsp; ![Maintainer](https://img.shields.io/badge/maintainer-Kaustav-blue)&nbsp;![Maintainer](https://img.shields.io/badge/maintainer-Unnati-blue)&nbsp &nbsp;![GitHub license](https://badgen.net/github/license/kaustav202/organica)
 
 ![GitHub forks](https://badgen.net/github/forks/kaustav202/organica) &nbsp;&nbsp;![GitHub stars](https://badgen.net/github/stars/kaustav202/organica)&nbsp;&nbsp;![GitHub issues](https://img.shields.io/github/issues/kaustav202/organica)&nbsp;&nbsp;![GitHub contributors](https://img.shields.io/github/contributors/kaustav202/organica)
 
