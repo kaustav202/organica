@@ -18,7 +18,7 @@ Finally, let's relish the spirit of open source and have fun while bringing qual
 
 # organica
 
-## HACKTOBERFEST 2024
+### HACKTOBERFEST 2024
 
 ### 🔗🔗  [Organica Website](https://kaustav202.github.io/organica/)   🍁🍂
 <br/>
