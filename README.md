@@ -18,6 +18,8 @@ Finally, let's relish the spirit of open source and have fun while bringing qual
 
 # organica
 
+## HACKTOBERFEST 2024
+
 ### 🔗🔗  [Organica Website](https://kaustav202.github.io/organica/)   🍁🍂
 <br/>
 A website that attempts to bring forth the importance of adopting a more organic lifestyle and also provides means of making it possible by establishing direct channels between the consumers and producers of organic products. This project aims to evolve into a platform that can be very useful for the community while being completely non-proprietary and maintained by passionate individuals. Cool Parallax effects and clean UI have been used to make the site's landing page. The site is deployed on GitHub pages.
