@@ -11,7 +11,7 @@
 }
 
 *{
-    font-family: 'Poppins', sans-serif;
+   
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border: none;
@@ -30,7 +30,10 @@ html {
 body {
     background-image: url(./Images/groc.png);
     background-size: cover;
-    margin: 20px 150px 100px 150px;
+    margin: 0px;
+    padding: 0px;
+   
+   
 }
 
 .heading {
@@ -55,22 +58,26 @@ body {
     padding: .8rem 3rem;
     font-size: 1.7rem;
     border-radius: .5rem;
-    border: .2rem solid var(--black);
+    border: .2rem solid var(--black); /* Initial border */
     color: var(--black);
     cursor: pointer;
     background: none; 
+    transition: all 0.3s ease; /* Smooth transition */
 }
 
 .btn:hover {
     background: var(--green);
     color: #fff;
+    border: .2rem solid #fff; /* Change border color on hover */
 }
 
+
 .products .product-slider {
+    font-family: 'Poppins', sans-serif;
     padding: 1rem;
 }
 
-.prducts .product-slider:first-child {
+.products .product-slider:first-child {
     margin-bottom: 2rem;
 }
 
@@ -79,15 +86,15 @@ body {
     border-radius: .5rem;
     text-align: center;
     padding: 3rem 2rem;
-    outline: var(--outline);
-    outline-offset: -1rem;
     box-shadow: var(--box-shadow);
-    transition: .2s linear;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transition */
 }
 
 .products .product-slider .box:hover {
+    transform: scale(1.02); /* Zoom in the box by 10% */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add shadow for a lifted effect */
     outline-offset: 0rem;
-    outline: var(--outline-hover);
+   
 }
 
 .products .product-slider .box img{
@@ -110,3 +117,139 @@ body {
     color: var(--green);
     padding: .5rem 0;
 }
+
+header {
+ /* Slightly transparent dark background */
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* Side padding */
+    margin: 0;/* Add margin to the left and right */
+    height: 60px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+
+.logo h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 2.5rem;
+    padding-bottom: 30PX;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding:  20px; 
+    padding-right: 70px ;
+
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    position: relative; /* Required for positioning the pseudo-element */
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1.6rem; /* Increase the font size as needed */
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 100%; /* Full width of the link */
+    height: 4px; /* Height of the box */
+    background: #ffcc00; /* Box color */
+    bottom: -5px; /* Position below the text */
+    left: 0;
+    transform: scaleX(0); /* Initially scale to 0 (hidden) */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Change text color on hover */
+}
+
+.nav-links a:hover::after {
+    transform: scaleX(1); /* Scale to full width on hover */
+}
+.search-container {
+    position: relative; /* Make the container position relative */
+    padding-right: 250px; /* Space for the search bar */
+}
+
+.search-bar {
+    position: relative;
+    padding: 0.5rem 2rem; /* Padding for input */
+    border: none; /* Remove border */
+    border-radius: 6px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    background-color: #fff; /* Background color of the input */
+    color: #333; /* Text color */
+    width: 300px; /* Set width */
+    padding-left: 40px; /* Increased space for icon */
+}
+
+/* Adjusting the icon positioning */
+.search-icon {
+    position: absolute; /* Position the icon absolutely */
+    left: 10px; /* Space from the left */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to truly center */
+    color: #888; /* Icon color */
+    pointer-events: none; /* Prevent clicking on the icon */
+    font-size: 18px; /* Set the size of the icon */
+    z-index: 1; /* Ensure the icon appears above the input field */
+}
+
+.user-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none; /* Hide by default */
+    position: absolute;
+    background-color: white; /* Adjust as needed */
+    border: 1px solid #ccc; /* Add border */
+    z-index: 1; /* Ensure it appears on top */
+    min-width: 130px; /* Adjust width */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+
+    
+}
+
+.dropdown li {
+    list-style: none; /* Remove default list styles */
+}
+
+.dropdown li a {
+    display: block; /* Full width */
+    padding: 10px; /* Spacing */
+    text-decoration: none; /* No underline */
+    color: black; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+.dropdown li a:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+    /* Ensure no border or pseudo-element is applied */
+}
+
+.dropdown.show {
+    display: block;
+}
+

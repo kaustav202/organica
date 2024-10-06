@@ -15,6 +15,42 @@
 
 <body>
     
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Buy Organic</h1>
+            </div>
+            
+            <ul class="nav-links">
+                <li>
+                    <li class="search-container">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" placeholder="  Search..." class="search-bar" />
+                    </li>
+                    
+                <li><a href="/">Home</a></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-shopping-cart"></i> 
+                    </a>
+                </li>
+                <li class="user-icon-container">
+                    <a href="#" class="user-icon" id="userIcon">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                    <ul class="dropdown" id="dropdownMenu">
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#settings">Settings</a></li>
+                        <li><a href="#logout">Logout</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#About">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    
     <div class="bg-image"></div>
     
     <section class="products content" id="products">
@@ -148,10 +184,11 @@
             </div>
 
         </div>
-
+        
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    
 </body>
 </html>
